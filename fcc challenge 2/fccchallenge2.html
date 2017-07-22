@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" type="image/x-icon" href="https://production-assets.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico" />
+  <link rel="mask-icon" type="" href="https://production-assets.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111" />
+  <title>CodePen - Portfolio Page for FreeCodeCamp</title>
+      <meta charset="utf-8" />
+    <title>Portfolio page of David Pilkinton</title>
+    <script src="https://use.fontawesome.com/842f30661e.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+</head>
+      <style>
+              body {
+            background-color: grey;
+        }
+
+        #About {
+            background: url('http://prod.bti.tv/images/PorscheGarage.jpg') no-repeat fixed;
+            height: 700px;
+            background-position-x: -700px;
+            background-position-y: -600px;
+        }
+
+        #Portfolio {
+            background: url('http://prod.bti.tv/images/metalback.jpg') no-repeat center center fixed;
+            text-align: center;
+        }
+
+        #Contact {
+            background: url('http://prod.bti.tv/images/redhex.jpg') no-repeat fixed;
+            height: 500px;
+            background-position-y: -600px;
+        }
+
+        .imgborder {
+            border-style: solid;
+            border-width: 5px;
+            border-color: steelblue;
+        }
+
+        .label-md {
+            font-family: calibri;
+            font-weight: bold;
+            font-size: 1.5em;
+            color: white;
+        }
+
+        .label-md-padded {
+            font-family: calibri;
+            font-weight: bold;
+            font-size: 1.5em;
+            color: white;
+            padding: 10px 20px 10px 20px;
+        }
+
+        .sectionheader {
+            font-family: Calibri;
+            font-weight: 800;
+            font-size: 30px;
+            color: white;
+            text-align: center;
+            height: 100px;
+        }
+
+        .portfolioimgsize {
+            height: 270px;
+            width: 360px;
+            border: solid;
+            border-width: 6px;
+            border-radius: 6px;
+            border-color: black;
+            margin: 5px 5px 5px 5px;
+        }
+
+        .btnbig{
+            width:200px;
+        }
+    </style>
+
+  
+  
+  
+  
+</head>
+
+<body translate="no" >
+
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class='container'>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><h5><b>David Pilkinton</b></h5></a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <section id="About">
+            <div style="margin-left:100px; margin-right:100px; min-width:300px;">
+                <div style="height:160px;"></div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-8 col-md-6 label-primary img-rounded">
+                            <span class="label-md">
+                                Full Stack Application Developer with over 40 years of IT Experience. Self Motivated to learn more.
+                                Capable of translating business needs into solutions.
+                            </span>
+                            <hr style="border-width:5px;" />
+                            <p>
+                                <span class="label-md">
+                                    APPLICATION DEVELOPER - WEB DESIGNER - SQL DEVELOPER - PHOTOGRAPHER - TRIATHLETE
+                                </span>
+                            </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-6">
+                            <img src="http://prod.bti.tv/images/davidphotog.jpg" class="img-circle imgborder img-responsive center-block" alt=""
+                                 style="height:250px; width:250px;">
+                        </div>
+                    </div>
+                <div style="height:150px;">
+                    &nbsp;
+                </div>
+                <div class="row hidden-sm hidden-xs hidden-md">
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <a target="_blank" href="https://twitter.com/3Wlaser" class="btn btn-primary btn-lg btnbig">
+                            <i class="fa fa-twitter"></i> Twitter
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <a target="_blank" href="https://github.com/dpilkinton" class="btn btn-primary btn-lg btnbig">
+                            <i class="fa fa-github"></i> Github
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <a target="_blank" href="https://www.linkedin.com/in/david-pilkinton-a723904/" class="btn btn-primary btn-lg btnbig">
+                            <i class="fa fa-linkedin"></i> Linkedin
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <a target="_blank" href="https://www.freecodecamp.com/dpilkinton" class="btn btn-primary btn-lg btnbig">
+                            <i class="fa fa-free-code-camp"></i> FreeCodeCamp
+                        </a>
+                    </div>
+                </div>
+
+                </div>
+        </section>
+        <section id="Portfolio">
+            <div style="text-align:center; width:100%;">
+                <div class="label-primary sectionheader">
+                    A PORTFOLIO OF
+                    <br />
+                    SOME RECENT WORK!
+                </div>
+            </div>
+            <div style="height:20px;"></div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <img src="http://prod.bti.tv/images/img_0194.jpg" alt="SAFE!!" class="portfolioimgsize">
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <img src="http://prod.bti.tv/images/running1.jpg" alt="running" class="portfolioimgsize">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <img src="http://prod.bti.tv/images/cycling.jpg" alt="cycling" class="portfolioimgsize">
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <img src="http://prod.bti.tv/images/img_0126.jpg" alt="SAFE!!" class="portfolioimgsize">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <img src="http://prod.bti.tv/images/swimstart.jpg" alt="swim" class="portfolioimgsize">
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <img src="http://prod.bti.tv/images/cycling1.jpg" alt="running" class="portfolioimgsize">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    &nbsp;
+                </div>
+            </div>
+        </section>
+
+        <section id="Contact">
+            <div style="text-align:center;">
+                <div style="text-align:center; width:100%;">
+                    <div class="label-primary sectionheader">
+                        <br />
+                        YOU MAY CONTACT ME BY:
+                    </div>
+                </div>
+                <div style="height:20px;">
+                    &nbsp;
+                </div>
+                <div class="row">
+                    <div class="hidden-sm hidden-xs col-md-6 col-lg-6 label-md-padded">
+                        &nbsp;
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 label-md-padded">
+                        EMAIL: davidwpilkinton@yahoo.com
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="hidden-xs hidden-sm col-md-6 col-lg-6 label-md-padded">
+                        &nbsp;
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 label-md-padded">
+                        OR AROUND THE WEB
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <a target="_blank" href="https://twitter.com/3Wlaser" class="btn btn-primary btn-lg btnbig">
+                            <i class="fa fa-twitter"></i> Twitter
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <a target="_blank" href="https://github.com/dpilkinton" class="btn btn-primary btn-lg btnbig">
+                            <i class="fa fa-github"></i> Github
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <a target="_blank" href="https://www.linkedin.com/in/david-pilkinton-a723904/" class="btn btn-primary btn-lg btnbig">
+                            <i class="fa fa-linkedin"></i> Linkedin
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <a target="_blank" href="https://www.freecodecamp.com/dpilkinton" class="btn btn-primary btn-lg btnbig">
+                            <i class="fa fa-free-code-camp"></i> FreeCodeCamp
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 label-md-padded">
+                        &nbsp;
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 label-md-padded">
+                    </div>
+                </div>
+            </div>        </section>
+        <content id="footer">
+            <br />
+            <br />
+        </content>
+    </div>
+ 
+ </body>
+</html>
+ 
